@@ -1,0 +1,16 @@
+.header {
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--color-gray-light-2);
+
+  /* LOGO */
+  &__logo {
+    /* position: absolute; */
+    /* top: 4rem; */
+    /* left: 4rem; */
+  }
+  &__logo-image {
+    height: 3.5rem;
+  }
+
+}

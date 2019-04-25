@@ -1,0 +1,21 @@
+.form-search {
+  &__button {
+    background-color: tomato;
+  }
+  &__icon {
+/*     background-color: blue;
+    display: block;
+    height: 10rem;
+    width: 10rem;
+ */  }
+
+}
+
+.svg-item{
+  display: block;
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+  margin: 0 40px;
+  fill: #000;
+}
