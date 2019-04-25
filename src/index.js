@@ -11,8 +11,9 @@ import '@babel/runtime/regenerator';
 // [ICONS]
 
 // [FONTS]
-// import './assets/fonts/Lato/Lato-Regular.css';
-// import './assets/fonts/Lato/Lato-Light.css';
+import './assets/fonts/OpenSans/OpenSans-Light.css';
+import './assets/fonts/OpenSans/OpenSans-Regular.css';
+import './assets/fonts/OpenSans/OpenSans-SemiBold.css';
 
 // [STYLES]
 import './styles/postcss/main.css';

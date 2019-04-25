@@ -1,12 +1,12 @@
 # SET FONT-SIZE @DESKTOP-FIRST-STRATEGY
 
 atSmall:
-  line-height: 1.5
+  line-height: 1.6
 atMedium:
   line-height: 1.6
 atLarge:
-  line-height: 1.7
+  line-height: 1.6
 atDefault:            # LINE-HEIGHT @ DEFAULT BREAKPOINT
-  line-height: 1.8
+  line-height: 1.6
 atXLarge:
-  line-height: 1.9
+  line-height: 1.6

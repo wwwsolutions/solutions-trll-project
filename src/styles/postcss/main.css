@@ -38,20 +38,20 @@
 /* @import "base/variables@simple/_grid.variables.css"; */
 /* @import "base/variables@simple/_colors.variables.css"; */
 /* @import "base/variables@simple/_font.variables.css"; */
-/* @import "base/variables@root/_custom-properties.variables.css"; */
+@import "base/variables@root/_custom-properties.variables.css";
 /* @import "base/animations/_animation.css"; */
 /* @import "base/animations/_move-in-bottom.animation.css"; */
 /* @import "base/animations/_move-in-left.animation.css"; */
 /* @import "base/animations/_move-in-right.animation.css"; */
 /* @import "base/effects/_reveal-item.effect.css"; */
-/* @import "base/layouts/_section.layout"; */
+@import "base/layouts/_section.layout";
 
 /*
   > SELECT ONE OF RESPONSIVE DESIGN STRATEGIES
   > CORRESPONDING TO [build-utils/webpack/postcss/postcss.config.js	--> "postcss-map" --> SETTINGS]
 */
-/* @import "base/@desktop-first/_typography@desktop-first.css"; */
-/* @import "base/@desktop-first/_common@desktop-first.css"; */
+@import "base/@desktop-first/_typography@desktop-first.css";
+@import "base/@desktop-first/_common@desktop-first.css";
 
 /*
 @import "base/@mobile-first-strategy/_typography@mobile-first-strategy.css";
