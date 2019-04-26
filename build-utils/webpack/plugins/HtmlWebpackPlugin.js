@@ -5,9 +5,8 @@ import paths from '../webpack.paths';
 // https://github.com/ampedandwired/html-webpack-plugin#configuration
 const HtmlWebpackPlugin = new _HtmlWebpackPlugin({
 
-  template: "./index.html",
-
-  filename: "./index.html"
+  filename: 'index.html',
+  template: "index.html",
 
 });
 

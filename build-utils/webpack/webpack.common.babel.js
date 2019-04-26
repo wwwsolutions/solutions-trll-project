@@ -13,6 +13,7 @@ import HTMLLoader from './loaders/html.loader';
 import IMAGESLoader from './loaders/images.loader';
 import FONTSLoader from './loaders/fonts.loader';
 
+
 // WEBPACK PLUGINS
 import HtmlWebpackPlugin from './plugins/HtmlWebpackPlugin';
 import MiniCssExtractPlugin from './plugins/MiniCssExtractPlugin';
