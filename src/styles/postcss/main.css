@@ -66,24 +66,11 @@
 @import "grids/_custom.grid";
 */
 
-/* MODULES > UNIQUE PAGE BLOCKS/SECTIONS
-  > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
-  ------------------------------------------------------------------------------------------------------------- */
-/* @import "../../app/modules/hero-large/_hero-large.module.css"; */
-
-/* @import "../../app/modules/navigation/_navigation.module.css"; */
-/* @import "../../app/modules/header/_header.module.css"; */
-/* @import "../../app/modules/about/_about.module.css"; */
-/* @import "../../app/modules/features/_features.module.css"; */
-/* @import "../../app/modules/tours/_tours.module.css"; */
-/* @import "../../app/modules/stories/_stories.module.css"; */
-/* @import "../../app/modules/booking/_booking.module.css"; */
-/* @import "../../app/modules/footer/_footer.module.css"; */
-/* @import "../../app/modules/popup/_popup.module.css"; */
-
 /* COMPONENTS > REUSABLE/PLUGABLE BLOCKS
   > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
   ------------------------------------------------------------------------------------------------------------- */
 @import "./components/_logo.component.css";
 @import "./components/_search.component.css";
 @import "./components/_user-nav.component.css";
+@import "./components/_side-nav.component.css";
+@import "./components/_legal.component.css";
