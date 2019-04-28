@@ -77,3 +77,7 @@
 @import "./components/_gallery.component.css";
 @import "./components/_overview.component.css";
 @import "./components/_btn-inline.component.css";
+@import "./components/_paragraph.component.css";
+@import "./components/_list.component.css";
+@import "./components/_recommend.component.css";
+@import "./components/_user-review.component.css";

@@ -9,5 +9,7 @@
   --color-gray-dark-1: #333;
   --color-gray-dark-2: #777;
   --color-gray-dark-3: #999;
-  --color-shadow-dark: 0 2rem 6rem 0 rgba(0, 0, 0, 0.3);
+  --shadow-dark: 0 2rem 6rem 0 rgba(0, 0, 0, 0.3);
+  --shadow-light: 0 2rem 5rem 0 rgba(0, 0, 0, 0.06);
+  --line: solid 1px var(--color-gray-light-2);
 }
