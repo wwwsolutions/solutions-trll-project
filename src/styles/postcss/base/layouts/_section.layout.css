@@ -5,6 +5,12 @@
   box-shadow: var(--shadow-dark);
 
   min-height: 50rem;
+
+  @mixin atLarge {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 .header {
@@ -16,10 +22,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @mixin atSmallest {
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 11rem;
+  }
 }
 
 .content {
   display: flex;
+
+  @mixin atMedium {
+    flex-direction: column;
+  }
 }
 
 .sidebar {
@@ -43,6 +59,14 @@
   padding: 4.5rem;
   background-color: var(--color-gray-light-1);
   border-top: var(--line);
+
+  @mixin atMedium {
+    padding: 3rem;
+  }
+
+  @mixin atSmall {
+    flex-direction: column;
+  }
 }
 
 .description {
@@ -51,6 +75,16 @@
   padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem;
+
+  @mixin atMedium {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
+
+  @mixin atSmall {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
 }
 
 .user-reviews {

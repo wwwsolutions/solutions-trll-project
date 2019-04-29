@@ -21,12 +21,15 @@
     margin-right: 0.7rem;
 
     /* OLDER BROWSER */
-    /* background-image: url(../../assets/sprites/svg/chevron-thin-right.svg); */
-    /* background-size: cover; */
+    background-image: url(../../assets/sprites/svg/chevron-thin-right.svg);
+    background-size: cover;
 
     /* NEWER BROWSER - MASKS */
-    background-color: var(--color-primary);
-    mask-image: url(../../assets/sprites/svg/chevron-thin-right.svg);
-    mask-size: cover;
+    @supports (-webkit-mask-image: url() or mask-image: url()) {
+      background-color: var(--color-primary);
+      mask-image: url(../../assets/sprites/svg/chevron-thin-right.svg);
+      mask-size: cover;
+      background-image: none;
+    }
   }
 }

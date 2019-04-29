@@ -1,23 +1,26 @@
-/* @MOBILE-FIRST-STRATEGY
+/* @DESKTOP-FIRST-STRATEGY
 
   > WARNING!
   > ORDER OF BREAKPOINTS MATTERS!
 
     [default]
-    atSmall
-    atMedium
-    atLarge
-    atXLarge
     ...
+    atXLarge
+    atLarge
+    atMedium
+    atSmall
 
 */
 
 ::selection {
-  background-color: $color-primary;
-  color: $color-white;
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
 
 body {
-  padding: 30px;
-  box-sizing: border-box;
+  min-height: 100vh;
+  background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--color-gray-dark-2);
 }

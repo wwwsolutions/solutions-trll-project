@@ -3,11 +3,24 @@
   list-style: none;
   margin-top: 3.5rem;
 
+  @mixin atMedium {
+    display: flex;
+    margin: 0;
+  }
+
   &__item {
     position: relative;
 
     &:not(:last-child) {
       margin-bottom: 0.5rem;
+
+      @mixin atMedium {
+        margin-bottom: 0;
+      }
+    }
+
+    @mixin atMedium {
+      flex: 1;
     }
   }
 
@@ -48,6 +61,16 @@
 
     display: flex;
     align-items: center;
+
+    @mixin atMedium {
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    @mixin atSmall {
+      flex-direction: column;
+      padding: 1.5rem 0.5rem;
+    }
   }
 
   &__icon {
@@ -55,5 +78,12 @@
     height: 1.75rem;
     margin-right: 2rem;
     fill: currentColor;
+
+    @mixin atSmall {
+      margin-right: 0;
+      margin-bottom: 0.7rem;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
   }
 }

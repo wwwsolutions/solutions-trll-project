@@ -5,6 +5,12 @@
   align-items: center;
   justify-content: center;
 
+  @mixin atSmallest {
+    order: 1;
+    flex: 0 0 100%;
+    background-color: var(--color-gray-light-2);
+  }
+
   &__input {
     font-family: inherit;
     font-size: inherit;

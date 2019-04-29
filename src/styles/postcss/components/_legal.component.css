@@ -3,4 +3,8 @@
   color: var(--color-gray-light-4);
   text-align: center;
   padding: 2.5rem;
+
+  @mixin atMedium {
+    display: none;
+  }
 }

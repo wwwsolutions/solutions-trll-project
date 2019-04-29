@@ -23,8 +23,4 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--color-gray-dark-2);
-
-  /* @mixin atMedium {
-    padding: 0;
-  } */
 }

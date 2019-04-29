@@ -1,0 +1,5 @@
+@define-mixin atSmallest {
+  @media map(breakpoints, atSmallest) {
+    @mixin-content;
+  }
+}

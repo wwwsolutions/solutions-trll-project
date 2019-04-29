@@ -8,7 +8,12 @@
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 1.5rem;
+    padding: 1.5rem 3rem;
+
+    @mixin atSmall {
+      font-size: 1.8rem;
+      padding: 1.25 2rem;
+    }
   }
 
   &__stars {
@@ -44,16 +49,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @mixin atSmall {
+      padding: 0 1.5rem;
+    }
   }
 
   &__rating-average {
     font-size: 2.25rem;
     font-weight: 300;
     margin-bottom: -3px;
+
+    @mixin atSmall {
+      font-size: 1.8rem;
+    }
   }
 
   &__rating-count {
     font-size: 0.8rem;
     text-transform: uppercase;
+
+    @mixin atSmall {
+      font-size: 0.5rem;
+    }
   }
 }

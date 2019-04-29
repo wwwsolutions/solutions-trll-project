@@ -1,14 +1,14 @@
 # SET FONT-SIZE @DESKTOP-FIRST-STRATEGY
 
 atSmall:
-  font-size: 52%
+  font-size: 50%
 atMedium:
-  font-size: 56.25%
+  font-size: 50%
 atLarge:
+  font-size: 50%
+atXLarge:
   font-size: 62.5%
 atDefault:            # FONT-SIZE @DEFAULT-BREAKPOINT
   font-size: 62.5%    # DEFINITION @1rem
-atXLarge:
-  font-size: 75%
 
 #
